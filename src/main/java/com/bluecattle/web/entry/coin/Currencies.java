@@ -13,6 +13,7 @@ import java.util.List;
 
 /**
  * 货币信息
+ * @author ningchengzeng
  */
 @NoArgsConstructor
 @Data

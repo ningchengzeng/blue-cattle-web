@@ -13,6 +13,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.List;
 
+/**
+ * 交易所
+ * @author ningchengzeng
+ */
 @NoArgsConstructor
 @Data
 @Document(collection = "coin_exchange")

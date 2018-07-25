@@ -8,6 +8,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.math.BigDecimal;
 
+/**
+ * 交易所交易对信息
+ * @author ningchengzeng
+ */
 @NoArgsConstructor
 @Data
 @Document(collection = "coin_exchange_currencies")

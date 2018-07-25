@@ -43,12 +43,21 @@ public class Journalism {
     private List<Currencies> currencies = new ArrayList<>();
     //发稿
     private Draft draft;
+
     //上架时间
     private Date upTime;
     //下架时间
     private Date downTime;
 
 
+    private Integer up;         //点赞
+    private Integer down;       //踩
+    private Integer read;       //阅读
+    private Integer transmit;   //转发
+
+    /**
+     * 新闻所有者
+     */
     @Data
     @NoArgsConstructor
     public static class Draft{

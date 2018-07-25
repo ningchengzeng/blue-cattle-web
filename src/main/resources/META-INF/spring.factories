@@ -1,0 +1,7 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.bluecattle.web.config.jade4j.Jade4JAutoConfiguration
+
+# Template availability providers
+org.springframework.boot.autoconfigure.template.TemplateAvailabilityProvider=\
+com.bluecattle.web.config.jade4j.Jade4JTemplateAvailabilityProvider

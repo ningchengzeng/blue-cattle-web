@@ -10,6 +10,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 感念行情
+ * @author ningchengzeng
+ */
 @NoArgsConstructor
 @Data
 @Document(collection = "coin_concept")

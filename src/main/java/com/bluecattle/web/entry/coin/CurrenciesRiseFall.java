@@ -7,7 +7,10 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-//交易排行
+/**
+ * 交易排行
+ * @author ningchengzeng
+ */
 @NoArgsConstructor
 @Data
 @Document(collection = "coin_exchange_rankings")

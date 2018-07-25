@@ -4,6 +4,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.mongodb.core.index.Indexed;
 
+/**
+ * 新闻标签
+ * @author ningchengzeng
+ */
 @Data
 @NoArgsConstructor
 public class NewsTag{
